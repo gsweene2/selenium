@@ -12,6 +12,7 @@ public class BestPractises3 {
 
     @Before
     public void setUp(){
+        System.setProperty("webdriver.gecko.driver","src/main/resources/geckodriver");
         selenium = new FirefoxDriver();
     }
 

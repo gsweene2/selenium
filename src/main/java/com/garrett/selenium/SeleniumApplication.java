@@ -8,5 +8,6 @@ public class SeleniumApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SeleniumApplication.class, args);
+		System.setProperty("webdriver.gecko.driver","src/main/resources/geckodriver");
 	}
 }
