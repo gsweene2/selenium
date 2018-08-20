@@ -1,4 +1,5 @@
-FROM openjdk:8-jdk-alpine
+#FROM openjdk:8-jdk-alpine
+FROM ubuntu:trusty
 VOLUME /tmp
 ARG JAR_FILE
 COPY ${JAR_FILE} app.jar
